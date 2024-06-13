@@ -1,16 +1,28 @@
-## Hi there 👋
+<hr>
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I am Luis Haro. </h1>
+<hr>
 
-<!--
-**ljharo/ljharo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<!--- snake -->
+<div align="center">
+  <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake.svg"
+       alt="snake" /></a>
+</div>
 
-Here are some ideas to get you started:
+```python
+# about me
+class LuisHaro():
+    
+  def __init__(self) -> None:
+    self.name: str = "Luis";
+    self.lastname: str = "Haro"
+    self.username: str = "ljharo";
+    self.location = "Caracas, Venezuela";
+    self.email: str = "ljharo271@gmial.com"
+    self.phone: str = "####-#######"
+  
+  def __str__(self):
+    return self.username
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+if __name__ == '__main__':
+    me = AbhigyanTrips()
+```
