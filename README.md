@@ -21,7 +21,7 @@ class LuisHaro():
     self.lastname: str = "Haro"
     self.username: str = "ljharo";
     self.location = "Caracas, Venezuela";
-    self.email: str = "ljharo271@gmial.com"
+    self.email: str = "ljharo271@gmail.com"
     self.phone: str = "####-#######"
   
   def __str__(self):
